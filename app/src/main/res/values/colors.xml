@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- 透明 -->
+    <color name="color_trans">#00000000</color>
+    <color name="my_trans">#9000</color>
+    <color name="themecolor">#ff6633</color>
+
+    <color name="darkyellow">#FFCC33</color>
+    <color name="color_E6E6E6">#E6E6E6</color>
+
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="order_submit_bar_color">#f3f3f3</color>
+    <color name="color_FFA637">#FFA637</color>
+    <color name="color_FF8056">#FF8056</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="color_FFDD00">#FFDD00</color>
+    <color name="color_D0E8E4">#D0E8E4</color>
+
+    <color name="tehui_red">#f6414f</color>
+
+    <color name="lucensy">#00000001</color>
+    <color name="translucency">#e0000000</color>
+    <color name="orange">#ffa500</color>
+    <color name="blue">#3299CC</color>
+    <color name="black">#000000</color>
+    <color name="color_272320">#272320</color>
+
+
+    <color name="new_top_bg_color">#333333</color>
+    <color name="zhyp_small_black">#999999</color>
+    <color name="zhyp_middle_black">#666666</color>
+    <color name="zhyp_shop_not_choose_text_color">#333333</color>
+    <color name="zhyp_orange">#FF6D1F</color>
+    <color name="color_333333">#333333</color>
+
+    <color name="color_BBBBBB">#BBBBBB</color>
+    <color name="color_FF4E76">#FF4E76</color>
+
+
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="color_FF3746">#FF3746</color>
+
+
+    <color name="color_FF5651">#FF5651</color>
+    <color name="color_FF3846">#FF3846</color>
+    <color name="color_FF3A5C">#FF3A5C</color>
+
+    <color name="color_444444">#444444</color>
+
+
+
+
+
+    <color name="color_FD1F4D">#FD1F4D</color>
+    <color name="color_FF3F4D">#FF3F4D</color>
+    <color name="color_F3F5F9">#F3F5F9</color>
+
+
+    <color name="color_EAEAEA">#EAEAEA</color>
+    <color name="color_FEF6F6">#F5F5F5</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_32AAFF">#32AAFF</color>
+
+    <color name="color_32F3F5F9">#F3F5F9</color>
+
+
+
+    <color name="category_tag_choose_color">#fef3f2</color>
+    <color name="new_search_background_color">#F84B59</color>
+    <!-- <color name="red">#bf242a</color> -->
+
+    <!--<color name="light_red2">#f97c86</color>-->
+    <color name="light_red2">#FF3746</color>
+    <color name="zhyp_shop_choose_text_color">#FD1F4D</color>
+    <color name="ckb_shop_choose_text_color">#FF3746</color>
+    <color name="market_choose_text_color">#757576</color>
+    <color name="hhr_tongji_red">#ff4440</color>
+
+    <color name="new_phb_top_start_color">#FF6556</color>
+    <color name="new_phb_top_end_color">#FF3746</color>
+
+
+    <color name="light_red">#FFFFFF</color>
+    <color name="light_orange">#fcb75c</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="gray">#DBDBDB</color>
+    <color name="guanggao_grey">#8b8b8a</color>
+    <color name="trans">#50000000</color>
+    <color name="red">#fe0202</color>
+
+
+    <color name="color_DCC77F">#DCC77F</color>
+    <color name="color_FF963B">#FF963B</color>
+    <color name="color_F3B229">#F3B229</color>
+
+
+
+
+    <color name="background">#e5e5e5</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="text_gray">#4F4F4F</color>
+    <color name="green">#009900</color>
+    <color name="grey21">#363636</color>
+    <color name="bottom_color">#F5F5F5</color>
+    <color name="color_FFE5E5">#FFE5E5</color>
+    <color name="light_blue">#6593cb</color>
+
+    <color name="gold">#b89766</color>
+    <color name="hhr_grey_text">#aaaaaa</color>
+    <color name="grey_text">#C0C0C0</color>
+    <color name="yhq_red">#fd4542</color>
+
+    <color name="light_grey">#b5b5b6</color>
+    <color name="nuan_grey">#F5F5F5</color>
+    <color name="weight_green">#3a4937</color>
+    <color name="tese_color">#f7f7f7</color>
+    <!--<color name="good_comment_bg_color">#EEEEEE</color>-->
+    <color name="good_comment_bg_color">#F5F5F5</color>
+    <color name="good_comment_bg_color2">#F5F5F5</color>
+    <!-- 二维码 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="good_comment_bg_color3">#E8E8E8</color>
+
+
+    <color name="color_FF4755">#FF4755</color>
+    <color name="color_FF757F">#FF757F</color>
+
+
+
+
+    <color name="grey">#58616d</color>
+    <color name="darkgrey">#ff404040</color>
+    <color name="toasterro">#9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+
+    <color name="navpage">#FFE1E8EB</color>
+
+
+</resources>

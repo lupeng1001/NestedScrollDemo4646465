@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.1'
+
+    defaultConfig {
+        applicationId "com.tuacy.nestedscrolldemo"
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        //当然在这里不配置也是可以的，
+        // 系统会用默认的项目名称作为so文件的名称，并且cpu也将会支持全部类型，
+        // 只是当我们的项目名称改变的时候，在我们引用加载so文件的地方也需要改变，
+        // 不改变的话就出现找不到so库的异常，所以，
+        // 这里配置只是为了便利系统生成我们制定的so文件名，而不是根据项目名称生成。
+        ndk {
+            moduleName "newlib"
+
+//            abiFilters "armeabi","armeabi-v7a","x86"
+            abiFilters 'armeabi-v7a', 'x86', 'x86_64'
+//            abiFilters 'arm64-v8a','armeabi-v7a','x86','x86_64'
+        }
+
+    }
+
+//    sourceSets {
+//        main {
+//            java.srcDirs = ['src/main/java','src/main']
+//            jniLibs.srcDirs = ['jniLibs']
+//        }
+//    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    compile 'com.android.support:appcompat-v7:23.2.1'
+//    compile 'com.android.support:design:23.2.1'
+    //下面是支持动画下拉刷新的开源库
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.bumptech.glide:okhttp-integration:1.3.1@aar'
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+    compile 'com.reoobter:ultrapullview:1.0.0'
+    compile 'com.jwenfeng.pulltorefresh:library:1.0.3'
+    testCompile 'junit:junit:4.12'
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/normal_footer_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/zhyp_small_black"
+        >
+        <!-- 下拉刷新头部可变大变小的自定义view开始 -->
+        <com.example.downrefresh.new_part_views.RefreshAnimView
+            android:id="@+id/refreshAnimView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_marginRight="5dp"
+            />
+        <!-- 下拉刷新头部可变大变小的自定义view结束 -->
+
+
+        <ImageView
+            android:id="@+id/footer_arrow"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/donghua01"
+            android:visibility="visible"
+            />
+        <TextView
+            android:id="@+id/normal_footer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上拉"
+            android:textColor="@color/white"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

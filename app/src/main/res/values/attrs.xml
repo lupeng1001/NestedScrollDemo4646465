@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义view用到的属性开始 -->
+    <declare-styleable name="CustView">
+        <!--声明我们的属性，这里要注意format的值，不可乱用-->
+        <attr name="paintColor" format="color" />
+        <attr name="paintSize" format="dimension" />
+        <attr name="circleWidth" format="dimension" />
+    </declare-styleable>
+    <!-- 自定义view用到的属性结束 -->
+</resources>

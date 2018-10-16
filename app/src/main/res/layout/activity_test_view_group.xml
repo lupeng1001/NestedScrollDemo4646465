@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/main_layout"
+    android:orientation="vertical"
+    tools:context="com.example.downrefresh.TestViewGroupActivity">
+
+    <com.example.downrefresh.new_part_views.WordWrapView
+        android:id="@+id/view_wordwrap"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:background="@color/blue"
+        />
+
+
+
+
+</LinearLayout>

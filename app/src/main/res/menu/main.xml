@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="always"
+        android:title="更多"
+        android:icon="@android:drawable/ic_menu_more">
+        <menu>
+            <item
+                android:id="@+id/action_test"
+                android:showAsAction="withText"
+                android:title="测试"/>
+            <item
+                android:id="@+id/action_refresh"
+                android:showAsAction="withText"
+                android:title="刷新"/>
+        </menu>
+    </item>
+
+</menu>
