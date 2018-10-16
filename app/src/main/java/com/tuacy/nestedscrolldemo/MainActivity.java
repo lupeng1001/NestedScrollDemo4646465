@@ -6,11 +6,13 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.os.RemoteException;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    private static final String TAG = "MainActivity";
     private Button button;
 
 
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 				Toast.makeText(MainActivity.this,result,Toast.LENGTH_LONG).show();
             }
         });
+        Log.e(TAG,"");
 
 //		Parcel _data = Parcel.obtain();//从池子里取出一个Parcel对象
 //		_data.writeInterfaceToken();
