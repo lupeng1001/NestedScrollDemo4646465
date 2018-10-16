@@ -9,7 +9,7 @@ import android.util.Log;
 public class Java2CJNI {
     private static final String TAG = "Java2CJNI";
     static {
-        Log.e(TAG,"static部分代码开始执行asdasd250");
+        Log.e(TAG,"static部分代码开始执行asdasd250888");
         System.loadLibrary("java-lib");
     }
     public native String Java2C();
