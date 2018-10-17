@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     private Button button;
-    //asdadada
+
 
 
 	@Override
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 				Toast.makeText(MainActivity.this,result,Toast.LENGTH_LONG).show();
             }
         });
-        Log.e(TAG,"");
+        Log.e(TAG,"123456789");
 
 //		Parcel _data = Parcel.obtain();//从池子里取出一个Parcel对象
 //		_data.writeInterfaceToken();
