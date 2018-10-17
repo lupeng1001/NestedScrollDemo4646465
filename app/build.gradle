@@ -41,9 +41,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-//    compile 'com.android.support:appcompat-v7:23.2.1'
-//    compile 'com.android.support:design:23.2.1'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //    compile 'com.android.support:appcompat-v7:23.2.1'
+    //    compile 'com.android.support:design:23.2.1'
     //下面是支持动画下拉刷新的开源库
     compile 'com.android.support:recyclerview-v7:25.3.1'
     compile 'com.android.support:appcompat-v7:25.3.1'
@@ -54,4 +54,5 @@ dependencies {
     compile 'com.reoobter:ultrapullview:1.0.0'
     compile 'com.jwenfeng.pulltorefresh:library:1.0.3'
     testCompile 'junit:junit:4.12'
+    compile files('lib/volly-1.0.11.jar')
 }

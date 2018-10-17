@@ -81,9 +81,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".newtype_views.TestViewActivity"
             android:screenOrientation="portrait" />
@@ -107,12 +105,16 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.downrefresh.new_part_views.TestNewListViewActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.downrefresh.TestViewGroupActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.example.downrefresh.TestNdkActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".new_part_sp_tools.TestSharedPerferenceActivity"
             android:screenOrientation="portrait"
             >
             <intent-filter>
@@ -120,6 +122,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 

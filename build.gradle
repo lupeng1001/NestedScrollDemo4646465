@@ -1,5 +1,8 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-
+/**
+ * buildscript
+ * 这里是gradle构建脚本执行所需依赖，分别是对应的maven库和插件
+ */
 buildscript {
     repositories {
         jcenter()

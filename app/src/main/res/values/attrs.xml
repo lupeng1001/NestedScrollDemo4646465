@@ -8,4 +8,8 @@
         <attr name="circleWidth" format="dimension" />
     </declare-styleable>
     <!-- 自定义view用到的属性结束 -->
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="roundHeight" format="dimension" />
+    </declare-styleable>
 </resources>
