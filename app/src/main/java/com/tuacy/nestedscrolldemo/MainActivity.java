@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 				Toast.makeText(MainActivity.this,result,Toast.LENGTH_LONG).show();
             }
         });
-        Log.e(TAG,"123456789");
+        Log.e(TAG,"12345");
 
 //		Parcel _data = Parcel.obtain();//从池子里取出一个Parcel对象
 //		_data.writeInterfaceToken();
